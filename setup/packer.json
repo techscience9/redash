@@ -3,7 +3,8 @@
     "redash_version": "",
     "image_version": ""
   },
-  "builders": [
+  "builders": 
+  [
     {
       "name": "redash-us-east-1",
       "type": "amazon-ebs",
@@ -21,7 +22,8 @@
       "ssh_username": "arik"
     }
   ],
-  "provisioners": [
+  "provisioners": 
+  [
     {
       "type": "shell",
       "inline": [
